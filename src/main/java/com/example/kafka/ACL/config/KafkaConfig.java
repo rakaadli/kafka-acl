@@ -55,6 +55,6 @@ public class KafkaConfig {
 
     @Bean
     public NewTopic topic() {
-        return new NewTopic("my-topic", 1, (short) 1);
+        return new NewTopic("rozi-topic", 1, (short) 1);
     }
 }
